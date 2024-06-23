@@ -78,7 +78,7 @@
 };
 
 behaviors {
-        td0: tap_dance_1 {
+        td1: tap_dance_1 {
         compatible = "zmk,behavior-tap-dance";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
@@ -88,7 +88,7 @@ behaviors {
 
 
 behaviors {
-        td0: tap_dance_2 {
+        td2: tap_dance_2 {
         compatible = "zmk,behavior-tap-dance";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
