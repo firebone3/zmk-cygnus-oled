@@ -77,6 +77,26 @@
     };
 };
 
+behaviors {
+        td0: tap_dance_1 {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp LPAR>, <&kp LBKT>;
+    };
+};
+
+
+behaviors {
+        td0: tap_dance_2 {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp RPAR>, <&kp RBKT>;
+    };
+};
+
+
     macros {
        
     };
@@ -127,9 +147,9 @@ label= "NAVI"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp CAPS    &kp KP_NLCK  &kp UP      &kp BSLH    &kp LBRC        &kp RBRC    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
-    &none       &kp LEFT     &kp DOWN    &kp RIGHT   &kp LBKT        &kp RBKT    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp MINUS
-    &kp HOME    &kp END      &kp PG_UP   &kp PG_DN   &kp LPAR        &kp RPAR    &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY  
+    &kp CAPS    &kp KP_NLCK  &kp UP      &kp BSLH    &kp LBRC        &kp RBRC    &kp N7   &kp N8   &kp N9   &kp KP_PLUS
+    &none       &kp LEFT     &kp DOWN    &kp RIGHT   &kp LBKT        &kp RBKT    &kp N4   &kp N5   &kp N6   &kp MINUS
+    &kp HOME    &kp END      &kp PG_UP   &kp PG_DN   &kp LPAR        &kp RPAR    &kp N1   &kp N2   &kp N3   &kp KP_MULTIPLY  
                                          &trans      &trans      &trans          &mo ADJ     &kp KP_N0   &kp EQUAL     
                         >;
                 };
