@@ -82,7 +82,7 @@ behaviors {
         compatible = "zmk,behavior-tap-dance";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
-        bindings = <&kp LPAR>, <&kp LBKT>;
+        bindings = <&kp LPAR>, <&kp LBKT>, <&kp LBRC>;
     };
 };
 
@@ -92,7 +92,7 @@ behaviors {
         compatible = "zmk,behavior-tap-dance";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
-        bindings = <&kp RPAR>, <&kp RBKT>;
+        bindings = <&kp RPAR>, <&kp RBKT>, <&kp RBRC>;
     };
 };
 
@@ -147,8 +147,8 @@ label= "NAVI"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp CAPS    &kp KP_NLCK  &kp UP      &kp BSLH    &kp LBRC        &kp RBRC    &kp N7   &kp N8   &kp N9   &kp KP_PLUS
-    &none       &kp LEFT     &kp DOWN    &kp RIGHT   &kp LBKT        &kp RBKT    &kp N4   &kp N5   &kp N6   &kp MINUS
+    &kp CAPS   &kp KP_NLCK  &kp UP      &kp BSLH    &kp none        &kp none    &kp N7   &kp N8   &kp N9   &kp KP_PLUS
+    &none       &kp LEFT     &kp DOWN    &kp RIGHT   &kp LSHFT       &kp none    &kp N4   &kp N5   &kp N6   &kp MINUS
     &kp HOME    &kp END      &kp PG_UP   &kp PG_DN   &td1        &td2    &kp N1   &kp N2   &kp N3   &kp KP_MULTIPLY  
                                          &trans      &trans      &trans          &mo ADJ     &kp KP_N0   &kp EQUAL     
                         >;
