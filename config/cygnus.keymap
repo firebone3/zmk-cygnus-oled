@@ -51,6 +51,7 @@
                 COMBO(dce, &kp LS(E), 02 12)
                 COMBO(dcr, &kp LS(R), 03 13)
                 COMBO(dct, &kp LS(T), 04 14)
+		combo(dct2, &kp LS(T), 04 31)
     };
 
         behaviors {
