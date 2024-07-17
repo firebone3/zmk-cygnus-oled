@@ -46,9 +46,12 @@
                 COMBO(ctrl+x, &kp LC(X), 20 21)
                 COMBO(win, &kp LGUI, 20 31)
 		COMBO(esc, &kp ESC, 00 31)
-                COMBO(dcq, &kp LS(Q), 00 13)
-                COMBO(dcw, &kp LS(W), 01 11)
+		COMBO(dcq, &kp LS(Q), 00 10)
+                COMBO(dcq2, &kp LS(Q), 00 13)
+		COMBO(dcw, &kp LS(W), 01 11)
+		COMBO(dcw2, &kp LS(W), 01 13)
                 COMBO(dce, &kp LS(E), 02 12)
+		COMBO(dce2, &kp LS(E), 02 13)
                 COMBO(dcr, &kp LS(R), 03 13)
                 COMBO(dct, &kp LS(T), 04 14)
 		COMBO(dct2, &kp LS(T), 04 31)
@@ -125,7 +128,7 @@ label= "BASE"                              ;
    &kp Q       &kp W         &kp E            &kp R           &kp T           &kp Y       &kp U            &kp I             &kp O       &kp P
    &kp A       &hm LALT S  &hm LCTRL D &hm LSHFT F &kp G           &kp H      &hm LSHFT J   &hm LCTRL K  &hm LALT L  &kp SEMI
    &kp Z       &kp X          &kp C           &kp V           &kp B           &kp N       &kp M           &kp COMMA  &kp DOT     &td0    
-              &mt LCTRL DEL    &mt LSHFT SPACE   &lt NAV TAB           &lt SYM RET  &mt LSHFT RALT  &kp BSPC
+               &mt LCTRL DEL    &mt LSHFT SPACE   &lt NAV TAB           &lt SYM RET  &mt LSHFT RALT  &kp BSPC
                         >;
                 };
 
@@ -163,9 +166,9 @@ label= "NAVI"                              ;
 label= "SYM"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃           ┃           ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     *     ┃     '     ┃     "     ┃
+//             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃ 
+//             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃     '     ┃ 
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃     \     ┃       
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -202,7 +205,7 @@ label= "ADJ"                               ;
 
     &sys_reset   &none    &none    &none      &trans             &trans      &none     &none      &none     &none
     &none       &none    &none    &none      &tog GAME      &none     &none     &none      &none     &none  
-   &none        &none    &none    &none      &none             &none     &none     &none      &none     &none         
+    &none        &none    &none    &none      &none             &none     &none     &none      &none     &none         
                                 &none      &none      &none             &none      &none      &none   
                         >;
                 };
