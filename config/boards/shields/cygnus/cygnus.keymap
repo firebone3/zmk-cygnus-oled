@@ -111,21 +111,7 @@ behaviors {
     };
 
     macros {
-       g_macro: g_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            label = "G_MACRO";
-            bindings = <
-                &macro_tap &kp LSHFT
-                &macro_tap &macro_wait_random 10 50 // Shift 키 누른 후 랜덤 지연 (10~50ms)
-                &macro_tap &mkp MOUSE_BTN1
-                &macro_tap &kp LSHFT
-                &macro_tap &macro_wait_random N1 50 200
-                &macro_tap &macro_wait_random N0 50 200
-                &macro_tap &macro_wait_random N0 50 200
-                &macro_tap &macro_wait_random RET 50 200
-			>;
-		};
+
     };
 
         keymap {
@@ -252,7 +238,7 @@ label= "GAME"                             ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-   &kp Q		&kp W		&kp E		&kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &g_macro
+   &kp Q		&kp W		&kp E		&kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp p
    &kp A		&kp S		&kp D		&kp F 		&kp G    		&kp H       &kp J		&kp K		&kp L  		&kp SEMI
    &kp Z		&kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH   
                			    &kp DEL		&kp TAB     &kp SPACE	    &kp RET     &kp RALT    &tog GAME
