@@ -101,14 +101,6 @@ behaviors {
     };
 };
 
-  behaviors {
-        macro_wait_random: macro_wait_random {
-            compatible = "zmk,behavior-macro-wait-random";
-            #binding-cells = <2>;
-            min-ms = <0>;
-            max-ms = <1000>;
-        };
-    };
 
     macros {
 
