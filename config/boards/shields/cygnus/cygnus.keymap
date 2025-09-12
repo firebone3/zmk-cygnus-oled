@@ -124,7 +124,7 @@ behaviors {
                 &macro_tap &macro_wait_random N0 50 200
                 &macro_tap &macro_wait_random N0 50 200
                 &macro_tap &macro_wait_random RET 50 200
-		}
+		};
     };
 
         keymap {
