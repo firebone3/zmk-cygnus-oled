@@ -129,7 +129,7 @@ label= "BASE"                              ;
    &kp Q       &kp W       &kp E       &kp R        &kp T           &kp Y       &kp U        &kp I         &kp O       &kp P
    &kp A       &hm LALT S  &hm LCTRL D &hm LSHFT F  &kp G           &kp H      &hm LSHFT J   &hm LCTRL K   &hm LALT L  &kp SEMI
    &kp Z       &kp X       &kp C       &kp V        &kp B           &kp N       &kp M        &kp COMMA     &kp DOT     &td0    
-               &kp ESC     &mt LSHFT TAB &lt NAV SPACE           &lt SYM RET  &kp RALT  &kp BSPC
+               &kp ESC     &lt NAV SPACE    &mt LSHFT TAB           &lt SYM RET  &kp RALT  &kp BSPC
                         >;
                 };
 
@@ -233,7 +233,7 @@ label= "GAME"                             ;
    &kp Q		&kp W		&kp E		&kp R       &kp T           &kp ESC     &mkp LCLK    &kp I       &kp O       &kp P
    &kp A		&kp S		&kp D		&kp F 		&kp G    		&kp H       &kp J		&kp K		&kp L  		&kp SEMI
    &kp Z		&kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH   
-               			    &kp DEL		&kp TAB     &kp SPACE	    &kp RET     &kp RALT    &tog GAME
+               			    &kp DEL		&kp SPACE	&kp TAB    	    &kp RET     &kp RALT    &tog GAME
                         >;
                 };
 
