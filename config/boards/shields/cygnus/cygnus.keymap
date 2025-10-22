@@ -129,7 +129,7 @@ label= "BASE"                              ;
    &kp Q       &kp W       &kp E       &kp R        &kp T           &kp Y       &kp U        &kp I         &kp O       &kp P
    &kp A       &hm LALT S  &hm LCTRL D &hm LSHFT F  &kp G           &kp H      &hm LSHFT J   &hm LCTRL K   &hm LALT L  &kp SEMI
    &kp Z       &kp X       &kp C       &kp V        &kp B           &kp N       &kp M        &kp COMMA     &kp DOT     &td0    
-               &mt LCTRL DEL  &mt LSHFT TAB &lt NAV SPACE           &lt SYM RET  &mt LSHFT RALT  &kp BSPC
+               &kp ESC     &mt LSHFT TAB &lt NAV SPACE           &lt SYM RET  &kp RALT  &kp BSPC
                         >;
                 };
 
@@ -152,8 +152,8 @@ label= "NAVI"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-    &none   &kp KP_NLCK  &kp UP      &kp BSLH    &none           &none    &kp N7   &kp N8   &kp N9   &kp PLUS
-    &none   &kp LEFT     &kp DOWN    &kp RIGHT   &kp LSHFT       &none    &kp N4   &kp N5   &kp N6   &kp MINUS
+    &kp DEL   &kp KP_NLCK  &kp UP      &kp BSLH    &none           &none    &kp N7   &kp N8   &kp N9   &kp PLUS
+    &none     &kp LEFT     &kp DOWN    &kp RIGHT   &kp LSHFT       &none    &kp N4   &kp N5   &kp N6   &kp MINUS
     &kp HOME    &kp END      &kp PG_UP   &kp PG_DN   &td1        &td2     &kp N1   &kp N2   &kp N3   &kp KP_MULTIPLY
                                          &trans      &trans      &trans   &mo ADJ  &kp N0   &kp EQUAL     
                         >;
@@ -181,7 +181,7 @@ label= "SYM"                               ;
       &kp TILDE   &none       &none       &none       &none             &kp F9      &kp F10    &kp F11     &kp F12       &kp PSCRN       
       &none       &none       &none       &none       &kp LSHFT        &kp F5      &kp F6      &kp F7      &kp F8       &kp APOSTROPHE
       &none       &none       &none       &none       &none             &kp F1      &kp F2      &kp F3       &kp F4       &kp BSLH    
-                                        &none     &none        &mo ADJ         &none       &none      &none     
+                              &none     &none        &mo ADJ         &none       &none      &none     
                         >;
                 };
 
@@ -230,7 +230,7 @@ label= "GAME"                             ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-   &kp Q		&kp W		&kp E		&kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
+   &kp Q		&kp W		&kp E		&kp R       &kp T           &kp ESC     &kp U       &kp I       &kp O       &kp P
    &kp A		&kp S		&kp D		&kp F 		&kp G    		&kp H       &kp J		&kp K		&kp L  		&kp SEMI
    &kp Z		&kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH   
                			    &kp DEL		&kp TAB     &kp SPACE	    &kp RET     &kp RALT    &tog GAME
